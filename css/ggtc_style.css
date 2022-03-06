@@ -3,9 +3,11 @@
 
 :root{
         --blue: rgb(136, 136, 243);
-        --primary-color: rgb(128, 160, 228); 
+        --primary-color: #80a0e4; 
 
 }
+
+
 
 
 body{
@@ -36,6 +38,32 @@ a{
     color: rgb(23, 23, 23);
 
 }
+
+/* menu bar */
+.menu{
+    display:flex;
+    background-color: rgb(110, 152, 189);
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(23, 23, 23);
+
+}
+
+.menu > li {
+    flex: 1;
+    list-style: none;        /* remove dots roger */
+
+}
+
+
+
+
 
 .navbar{
 
@@ -79,30 +107,7 @@ header img {
     width: 100%;
  }
 
-/*
- nav.horizontal {
 
-    background-color:  rgb(174, 195, 240);
-    background-color: var(--blue);
-    height: 50px;
-}
-
-nav.horizontal a{
-    color:rgb(123, 50, 218);
-}
-
-
-nav.horizontal ul {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
- }
- nav.horizontal ul li {
-    display: block;
-    text-align: center;
- }
-
-*/
 
  footer { grid-area: footer;}
 
@@ -122,50 +127,54 @@ nav.horizontal ul {
  /* Media Query  */
 
 
- @media(max-width: 768px){
 
-   *{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-   }
+ @media all and (max-width: 600px){
 
 
-    .grid, .showcase .grid , .stats .grid , .cli .grid , .cloud .grid
-    .features-main .grid , .docs-main .grid{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+    body {
+        background-color: rgb(132, 238, 106);
+        color: white;
+      }
 
+
+    .menu{
+        flex-wrap: wrap;
+        height: 130px;
     }
 
+    .menu > li{
+        flex-basis: 100%
+    }
 
 }
 
-
-@media(max-width: 500px){
-
-    *{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-       }
-
-       
-    .navbar{
-        height: 110px; /* instead of 70 */
-    }
-
-    .navbar .flex{
-        flex-direction: column ;   /* instead of row */
-    }
-
-    .navbar ul{
-
-        padding: 10px;
-        background-color: rgba(0,0,0,0.1);  /* transparent background */
-
-    }
+ @media all and (max-width: 992px) {
+          body {
+            background-color: rgb(153, 153, 238);
+            color: rgb(255, 255, 255);
+          }
 
 
+          .menu{
+            flex-wrap: wrap;
+            height: 130px;
+        }
+    
+        .menu > li{
+            flex-basis: 100%
+        }
+        
+          .home{
+            background-color: rgb(135,130,200);
+          
+            width: 25%;
+        
+          }
+        
+          .home .card{
+            flex: 1;
+        
+          }
 
-
-}
+        }
 
