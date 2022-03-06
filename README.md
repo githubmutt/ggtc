@@ -1,44 +1,35 @@
 # ggtc
 
 
-PCC
-CS192 Responsive Web Design
-Spring 2022
+
+CS1s_Ressive.css<br>
 Final Project
 
-<p>
+
+  <p>
   
   Project to upgrade www.goldengatetennisclub.org into a modern, responsive web site.
+  <p>
+  index.html<br>
+
+  eventssive.css<br>
+  photos.html<br>
+
+
+
+  css<br>
+  ggtc_nav.css<br>
+  photos_style.css<br>
+  responsive.css<br>
+  utilities.css<br>
+
+   respnsive.css<br>
   
+   <p>
+
+  memberrs.html uses Javascript to inject membership data into a div<br>
+  <br
   
-  HTML
-  index.html
-  membership.html
-  events.html
-  members.html
-  photos.html
-  
-  css
-  ggtc_nav.css
-  ggtc_style.css
-  photo_style.css
-  
-  responsive.css
-  utilities.css
-  
-  icons
-  icons for the photos page
-  
-  images
-  images for headers
-  
-  index.html demonstrates some responsive media query that move menus into singular column
-  photos.html rearranges photos/iconos based on browser screen size
-  members.htm uses Javascript to inject membership data into a div
-  
-  
-  
-  
-  
-  
+  <p>
+     <br>
   
