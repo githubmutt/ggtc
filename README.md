@@ -2,37 +2,37 @@
 
 
 
-CS192 Introduction to Web Sites
+<b>CS192 Introduction to Web Sites</b> <br>
 Final Project
-
+<p>
 Project to upgrade www.goldengatetennisclub.org using HTML5 into a modern, responsive web site --- with one-tenth the code!
 
-  
-root level (html) files
+<p>  
+root level (html) files <p>
 
-  index.html
-  membership.html
-  events.html
-  members.html
-  photos.html
-  
-CSS
-  ggtc_nav.css
-  ggtc_style.css
-  photos_style.css
-  responsive.css   
-  utilities.css
+  index.html <br>
+  membership.html<br>
+  events.html<br>
+  members.html<br>
+  photos.html<br>
+<p>
+CSS<br>
+  ggtc_nav.css<br>
+  ggtc_style.css<br>
+  photos_style.css<br>
 
-ICONS
-  icons to populate photos page
-
-IMAGES
-  image for headers and photos page
+  <p>
+  from https://www.youtube.com/watch?v=p0bGHP-PXD4 <br>
+  responsive.css   <br>
+  utilities.css<br>
+<p>
+ICONS<br>
+  icons to populate photos page<br>
+<p>
+IMAGES<br>
+  image for headers and photos page<br>
   
-JAVASCRIPT
+JAVASCRIPT<br>
   members.js injects (sample) members into div in  members.html
   
     
-  
-  
-  
