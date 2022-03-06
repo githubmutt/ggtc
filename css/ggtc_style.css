@@ -132,7 +132,7 @@ header img {
 
 
     body {
-        background-color: rgb(132, 238, 106);
+        background-color: rgb(94, 128, 173);
         color: white;
       }
 
@@ -150,7 +150,7 @@ header img {
 
  @media all and (max-width: 992px) {
           body {
-            background-color: rgb(153, 153, 238);
+            background-color: rgb(153, 159, 238);
             color: rgb(255, 255, 255);
           }
 
