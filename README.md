@@ -3,10 +3,12 @@
 
 
 <b>CS192 Introduction to Web Sites</b> <br>
-Final Project
+<h1>Final Project</h1>
 <p>
 Project to upgrade www.goldengatetennisclub.org using HTML5 into a modern, responsive web site --- with one-tenth the code!
-
+<p>
+posted at<br>
+<a ref="https://githubmutt.github.io/ggtc/index.html">https://githubmutt.github.io/ggtc<a>
 <p>  
 root level (html) files <p>
 
