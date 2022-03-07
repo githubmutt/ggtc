@@ -22,9 +22,10 @@
     .container{
         display: grid;
         border: solid 2px;
+        color: black;
         background: rgb(225, 233, 236);
 
-        grid-template-columns: 1fr  1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
 
     }
 
@@ -33,6 +34,7 @@
          margin: 5px;
          text-align: center;
          line-height: 1.2em;
+         color: black;
 
 
    }
@@ -59,26 +61,51 @@
 }
 
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) and (max-width: 700px) {
 
 .container{
     
    background-color: rgb(143, 189, 229);
+   color:rgb(165, 42, 42);
    grid-template-columns: 1fr;
 
 }
 
+.container > *{
+
+    color: purple;
 }
 
-@media screen and (min-width:800px)  {
+.container  #board{
 
-.container{
+        color: red;
+
+
+}
+
+
+}
+
+@media screen and (min-width:701px) and (max-width: 1024px) {
+
+    .container{
 
     background-color: rgb(196, 227, 255);
+    color: rgb(238, 9, 9);
     grid-template-columns: 1fr 1fr;
 
 }
+   .container > *{
+       
+       color: rgb(128, 7, 241);
 
+   }
+
+   .container > #tourny{
+        background-color:rgb(194, 207, 145);
+        
+
+   }
 }
 
 
@@ -103,13 +130,23 @@
     <div id="board"> Board Notes
         <p>
 
-            The USA Football board of directors are leaders in athletics, medicine, and education. Chaired by retired General Peter Chiarelli, some other members include NFL Commissioner Roger Goodell, Big Ten Commissioner Kevin Warren, Green Bay Packers president and CEO Mark Murphy, and Kelly Mehrtens, executive director of The Trust, which is powered by the NFL Players Association and aims to support NFL players as they live their purpose beyond football.
+            The USA Football board of directors are leaders in athletics, medicine, and education. 
+            Chaired by retired General Peter Chiarelli, some other members include NFL Commissioner 
+            Roger Goodell, Big Ten Commissioner Kevin Warren, Green Bay Packers president and 
+            CEO Mark Murphy, and Kelly Mehrtens, executive director of The Trust, 
+            which is powered by the NFL Players Association and aims to support NFL players as they
+            live their purpose beyond football.
             
         </p>
 
         
     </div>
-    <div id="usta"> USTA Action</div>
+    <div id="usta"> USTA Action
+
+    <p>
+         <img src="icons/ball.png"> 
+    </p>
+    </div>
     <div id="tourny"> Tournaments
         <p>
             The tournament, held in late June and early July,
