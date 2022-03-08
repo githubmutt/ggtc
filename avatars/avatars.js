@@ -46,7 +46,7 @@ console.log("avatar")
 
 //document.getElementById("AvatarList").innerHTML = avatarHTML + tempHTML
 
-document.getElementById("AvatarList").innerHTML = avatarHTML + tempHTML
+document.getElementById("MonsterList").innerHTML = avatarHTML + tempHTML
 //document.getElementById("memberList").innerHTML = tableHTML + eventHTML
 
 }
