@@ -69,7 +69,7 @@ a{
 
     background-color: var(--primary-color);
     color: rgb(187, 64, 64);
-    height: 70px;
+    height: 80px;
 
 }
 
@@ -139,7 +139,7 @@ header img {
 
     .menu{
         flex-wrap: wrap;
-        height: 130px;
+        height: 15 0px;
     }
 
     .menu > li{
@@ -157,7 +157,7 @@ header img {
 
           .menu{
             flex-wrap: wrap;
-            height: 130px;
+            height: 150px;
         }
     
         .menu > li{
