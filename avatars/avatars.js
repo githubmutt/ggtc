@@ -1,12 +1,12 @@
 
 
-function loadAvatar(theList, theDir , AvatarList){
+function loadAvatar(theList, theDir , AvatarList , limitt){
 
 
 
  var image="" , avatarHTML="", tempHTML=""
  
- for(var i=0; i< AvatarList.length ; i++){
+ for(var i=0; i< AvatarList.length && i<limit ; i++){
     console.log( "i="+ i)
     image = AvatarList[i]
     tempHTML = '<img class="avatar" src="'    
@@ -131,10 +131,11 @@ Anime.push("png-transparent-yui-hirasawa-anime-desktop-k-on-anime-black-hair-han
 Anime.push("png-transparent-yui-hirasawa-k-on-mio-akiyama-anime-kavaii-anime-girl-child-face-black-hair-thumbnail.png")
 
 
-
+var limit=23
 // id="monsterList"  directory = "moster"  array=Monster
-loadAvatar("MonsterList","monster", Monster )
+loadAvatar("MonsterList","monster", Monster ,limit)
 
-loadAvatar("AnimeList", "anime", Anime)
+limit=31
+loadAvatar("AnimeList", "anime", Anime,limit)
 
 
