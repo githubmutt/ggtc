@@ -11,9 +11,64 @@
 
     <!--   taken directly from Loruki Make a responsive Website -->
     <link rel="stylesheet" href="css/utilities.css"> 
-</head>
 
-<header>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="avatars/avatars.js" defer ></script>  
+    
+</head>
+<!--
+https://www.pngwing.com/en/search?q=monster+Avatar
+
+-->
+<style>
+ .avatar{
+    width: 50px;
+    border-radius:50%;
+    object-fit: cover;
+    background-color: rgb(69, 20, 184);
+    margin: 3px;
+
+ }
+
+ .container{
+        display: grid;
+        border: solid 2px;
+        color: rgb(169, 134, 226);
+        background: rgb(143, 238, 233);
+
+        grid-template-columns: 5fr;
+ }
+
+ @media screen and (min-width: 480px) and (max-width: 700px) {
+
+.container{
+    
+   background-color: rgb(143, 189, 229);
+   color:rgb(165, 42, 42);
+   grid-template-columns: 1fr;
+
+}
+
+ }
+
+ @media screen and (min-width:701px) and (max-width: 1024px) {
+
+.container{
+
+background-color: rgb(196, 227, 255);
+color: rgb(238, 9, 9);
+grid-template-columns: 1fr 1fr;
+
+}
+
+
+
+}
+
+
+</style>
+ <header> 
 
     <img src="images/ggtc.png" alt="Golden Gate Tennis Club" />
 
@@ -29,9 +84,14 @@
            <li><a href="photos.html">Photos</a></li>
         </ul>
  </nav>
+         <h1>Sign up with your Avatar</h1>
+         <div class="container">
+            <h1>Monsters</h1> <p></p>
+            <div id="AvatarList"></div>
 
- 
-     <footer>
+        </div>
+
+        <footer>
 
         Golden Gate Tennis Club  &bull; &copy 2022 2412 Nancy Pelosi Drive, San Francisco, CA
      </footer>
